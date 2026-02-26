@@ -1,0 +1,206 @@
+body{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    /* these 3 properties are diff */
+    border: 2px solid black;
+    height: 600px;
+    width: 600px; }
+
+.box{
+    height: 200px;
+    width: 200px;
+   display: grid;
+   grid-template-columns: repeat(3,66.6px);
+   /* grid-template-rows: repeat(3,31.5px); */
+   
+    
+}    
+.mini{
+    /* height: 31.5px; */
+    width: 66.6px;
+    border: 1px solid black;
+}
+.red{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+  
+}
+.mini_red{
+    /* height: 31.5px; */
+    width: 66.6px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    
+    
+
+}
+.mini_yellow{
+    /* height: 31.5px; */
+    width: 66.6px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+/* mini2 yaha se h */
+
+.box2{
+
+     display: flex;
+       /* flex horizontal kr de ga  */
+       flex-wrap: wrap;
+       /* width: 600px; */
+   
+
+   
+
+}
+.mini2{
+     /* width: 80px; */
+  height: 66.6px;
+  width: 29.33px;
+  border: 2px solid black;
+  background-color: white;
+  /* margin: 5px; */
+    
+}
+
+
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 200px;}
+
+
+.mini2_blue{
+    height: 66.6px;
+  width: 29.34px;
+  border: 2px solid black;
+  background-color: blue;
+} 
+
+
+.green{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    
+}
+.mini2_green{
+    height: 66.6px;
+  width: 29.34px;
+  border: 2px solid black;
+  background-color: green;
+} 
+ .box_center{
+    height: 200px;
+    width: 200px;
+ }   
+#mid{
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+}
+/* circles */
+.blue_circle{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    background-color: rgb(13, 13, 117);
+    display: flex;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+  
+ 
+   
+} 
+
+      .yellow_circle{
+    height: 50px;
+    width: 50px;
+   
+    border-radius: 50%;
+    background-color: rgb(189, 189, 2);
+    display: flex;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+  
+ 
+   
+} 
+.green_circle{
+    height: 50px;
+    width: 50px;
+   
+    border-radius: 50%;
+    background-color: rgb(6, 88, 6);
+    display: flex;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+  
+ 
+   
+}  
+ .red_circle{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    background-color: rgb(150, 4, 4);
+    display: flex;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+  
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+       
+
+
+
